@@ -1,0 +1,248 @@
+body{
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+.links{
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;  
+  width: 100%; 
+  font-size: 30px;      
+  opacity: 0;
+ 
+  color: #edca02;
+}
+.t1{
+    transform: translate(-2000%);
+    position: absolute;    
+    width: 30%;
+    cursor: pointer;
+    color: white;
+  font-family: 'Open Sans', sans-serif;
+  color: #edca02
+}
+.t2{
+    transform: translate(-2000%);
+    position: absolute;
+    background-color: #06f9fb;
+    width: 30%;
+    cursor: pointer;
+}
+.t3{
+    transform: translate(0,-5000%);
+    position: absolute;
+    background-color: #06f9fb;
+    /* width: 30%;   */
+    cursor: pointer;  
+}
+.bar{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffd900;
+    margin: 6px auto;
+    box-shadow:0px -1px 1px #edca02;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;    
+    top: 80%;
+    position: absolute;
+    width: 100%;     
+}
+.about, .works,.contact, .lks, .test{
+  color: #edca02;
+}
+a{
+text-decoration: none;
+  
+}
+.yes:hover, .nope:hover, .maybe:hover{
+text-shadow:0 0 3px #ffd900;
+}
+/* #06f9fb */
+.test{
+  transform: translate(-2000%);
+  position: absolute; 
+}
+.scroll-container{
+  border: 1px solid #ffd900;
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+ @media all and (max-width: 2550px){
+  .t1{
+   margin-left: -300px;
+   width: 70%;
+  }
+ .scroll-container{
+   width: 1800px;
+   margin-left:-33%;
+   height: 400px;
+ }
+ .type2{
+   transform: translate(0px,620px)
+ }
+ .links{
+   margin-left:2%;
+   bottom: 125%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 135%;
+   left: 15%;
+ }
+ }
+ @media all and (max-width: 1440px){
+  .t1{
+   margin-left: -650px;
+   width: 70%;
+  }
+ .scroll-container{
+   width: 1200px;
+   margin-left:-33%;
+   height: 400px;
+ }
+ .type2{
+   transform: translate(0px,620px)
+ }
+ .links{
+   margin-left:2%;
+   bottom: 125%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 135%;
+   left: 15%;
+ }
+ } 
+@media all and (max-width: 1024px){
+  .t1{
+   margin-left: -650px;
+   width: 70%;
+  }
+ .scroll-container{
+   width: 800px;
+   margin-left:-33%;
+   height: 400px;
+ }
+ .type2{
+   transform: translate(0px,620px)
+ }
+ .links{
+   margin-left:2%;
+   bottom: 125%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 135%;
+   left: 15%;
+ }
+ }  
+ @media all and (max-width: 800px){
+ .scroll-container{
+   width: 620px;
+   margin-left:-33%;
+   height: 380px;
+ }
+ .links{   
+   bottom: 125%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 135%;
+   
+ }
+ } 
+@media all and (max-width: 600px){
+ .scroll-container{
+   width: 330px;
+   margin-left:-33%;
+   height: 380px;
+ }
+ .links{
+   
+   bottom: 180%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 130%;
+   
+ }
+ } 
+@media all and (max-width: 500px){
+ .links{
+   
+   bottom: 125%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 135%;   
+ }
+ }
+@media all and (max-width: 420px) and (max-height: 920px){
+ .scroll-container{
+   width: 310px;
+   margin-left:-33%;
+   height: 380px;
+ }
+  .links{   
+   bottom: 1100px;
+ }
+ .type3{
+   position: absolute;
+   bottom: 130%;
+   
+ }
+ }
+@media all and (max-width: 420px) and (max-height: 740px){
+ .scroll-container{
+   width: 310px;
+   margin-left:-33%;
+   height: 380px;
+ }
+  .links{   
+   bottom: 1400px;
+ }
+ .type3{
+   position: absolute;
+   bottom: 145%;   
+ }
+ } 
+
+   @media all and (max-width: 419px){
+ .scroll-container{
+   width: 310px;
+   margin-left:-33%;
+   height: 380px;
+ }
+  .links{   
+   bottom: 250%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 150%;
+ } 
+ }
+@media all and (max-width: 380px){
+ .links{
+   
+   bottom: 150%;
+ }
+ .type3{
+   position: absolute;
+   bottom: 100%;
+   
+ }
+ } 
